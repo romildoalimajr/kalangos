@@ -1,0 +1,295 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/09/2019, 12:02:26
+    Author     : Adm
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body, html {
+	height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav.navbar-light{
+    padding: 10px 0px;
+    background-color: rgba(75,14,29,.7);
+    border: none;
+}
+@media (min-width: 768px){
+    .navbar-left{
+        float:left !important;
+    }
+    .navbar-right{
+        float: right !important;
+        margin-left: 30rem;
+    }
+    .navbar-right ~ .navbar-right{
+        margin-left:0;
+    }
+}
+.navbar-nav>li>a{
+    color:white;
+    font-size: 2rem;
+}
+.navbar-nav>li>a:hover{
+    color:#32cd32;
+    text-decoration: none;
+}
+
+nav {
+    padding: 15px 0px;
+    background-color: rgba(75,14,29,.6);
+    border: none;
+}
+
+.img-logo{
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    background: url('../imagens/logo_92.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+.serv{
+    margin-left: 50px;
+    border-radius: 50%;
+    width:200px; 
+    heigth:200px;
+    align:center;
+}
+
+.serv2{
+    align:center;
+}
+
+
+
+#nav-content{
+    padding: 0 9px 9px 9px;
+}
+body{
+    background-color: #FFD700;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(-60%, #F037A5),
+    color-stop(140%, #6A5ACD));
+    font-weight: 800;
+    background: linear-gradient(#8B0000 -60%, #FFFAF0 140%);
+    background-size: calc;
+    background-attachment: fixed;
+    font-family: Calibri, Circular, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 5.5;
+    
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    /*touch-action: manipulation;*/
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 50px;
+    line-height: 1.5;
+    border-radius: 4px;
+    padding: 7px 12px 5px;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    /*user-select: none;*/
+}
+.btn-green{
+    color:#FFF;
+    background-color: #1ED760;
+    margin-left: 15rem;
+    padding: 10px;
+}
+.btn-green:hover{
+    color:#FFF;
+    background-color: #4bdf80;
+}
+.btn-green:focus{
+    color:#FFF;
+    background-color: #18ac4d;
+    -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.1) inset;
+}
+.btn-simplified{
+    border-radius: 30px;
+    padding: 10px 60px 10px 60px;
+}
+
+
+div#organizar{
+    /*margin: 25rem 40rem 0 40rem;*/
+    font-size: 22x;
+    min-height: 100%;
+    width: 100%;
+    webkit-transform: translatyeY(24px);
+   -ms-transform: translateY(24px);
+    transform: translateY(5px);
+    color: #000000;
+    min-height: 80vh;
+    text-align: justify;
+    
+}
+
+div{
+    text-align: justify;
+    text-justify: inter-word;
+}
+h{
+    text-align: center;
+}
+
+p{
+    justify-content: center;     
+    }
+
+    a[href="#top"]{
+    padding:10px;
+    position:fixed;
+    top: 90%;
+    right:40px;
+    display:none;
+    font-size: 30px;
+}
+a[href="#top"]:hover{
+    text-decoration:none;
+}
+
+h4{
+    align-items: center;
+    align:center;
+    text-align: center;
+}
+
+h3{
+    margin-left: 90px;
+    text-align: center;
+    align-items: center;
+}
+
+h5{
+    margin-left: 120px;
+    font-size: 42px;
+    text-align: center;
+    align-items: center;
+}
+
+h6{
+    margin-left: 140px;
+    font-size: 42px;
+    text-align: center;
+    
+}
+
+
+
+.container {
+    /*position: absolute;*/
+}
+ 
+.social {
+    position: absolute;
+    top: 11px; 
+    right: 0;
+}
+
+.carousel {
+  width: 500px;
+  margin: 0 auto;
+}
+/*
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+}
+*/
+#footer-content {
+  background: black;
+  opacity: 70%;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFF; 
+  font-size: 25px;
+}
+
+#footer-content li{ 
+    color: #FFF; 
+    font-size: 20px; 
+}
+
+
+home{
+    height: 100vh;
+    
+}
+
+.agendar2{
+    margin-left: 127px;
+    font-size: 22px;
+    }
+
+.agendar3{
+    margin-left: 730px;
+    font-size: 22px;
+    }
+
+.agendar4{
+    margin-left: 500px;
+    font-size: 22px;
+}
+
+.agendar5{
+    margin-left: 510px;
+    font-size: 22px;
+    }
